@@ -1,30 +1,4 @@
 <?php
-	// require_once 'koneksi.php';
-	// if(ISSET($_POST['save'])){
-	// 	$image_name = $_FILES['gambar']['name'];
-	// 	$image_temp = $_FILES['gambar']['tmp_name'];
-	// 	$firstname = $_POST['keterangan'];
-	// 	$lastname = $_POST['artikel'];
-	// 	$exp = explode(".", $image_name);
-	// 	$end = end($exp);
-	// 	$name = time().".".$end;
-	// 	if(!is_dir("./upload"))
-	// 		mkdir("upload");
-	// 	$path = "upload/".$name;
-	// 	$allowed_ext = array("gif", "jpg", "jpeg", "png");
-	// 	if(in_array($end, $allowed_ext)){
-	// 		if(move_uploaded_file($image_temp, $path)){
-	// 			mysqli_query($kon, "INSERT INTO `resep` VALUES('', '$name','$firstname','$lastname')") or die(mysqli_error());
-	// 			echo "<script>alert('User account saved!')</script>";
-	// 			header("location: resep.php");
-	// 		}	
-	// 	}else{
-	// 		echo "<script>alert('Image only')</script>";
-	// 	}
-	// }
-?>
-
-<?php
 // memanggil file koneksi.php untuk melakukan koneksi database
 include 'koneksi.php';
 // membuat variabel untuk menampung data dari form
