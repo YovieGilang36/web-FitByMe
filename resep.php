@@ -377,18 +377,7 @@ if ($gambar_produk != "") {
     <script src="js/demo/datatables-demo.js"></script>
 
    <!-- preview image -->
-   <script type="text/javascript">
-        function getImagePreview(event)
-        {
-            var image=URL.createObjectURL(event.target.files[0]);
-            var imagediv= document.getElementById('preview');
-            var newimg=document.createElement('img');
-            imagediv.innerHTML='';
-            newimg.src=image;
-            newimg.width="300";
-            imagediv.appendChild(newimg);
-        }
-    </script>
+  
 
 </body>
 
