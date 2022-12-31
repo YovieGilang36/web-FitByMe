@@ -61,11 +61,11 @@ if ($gambar_produk != "") {
     } else {
       //tampil alert dan akan redirect ke halaman index.php
       //silahkan ganti index.php sesuai halaman yang akan dituju
-      echo "<script>alert('Data berhasil diubah.');window.location='index.php';</script>";
+      echo "<script>alert('Data berhasil diubah.');window.location='nutrisi.php';</script>";
     }
   } else {
     //jika file ekstensi tidak jpg dan png maka alert ini yang tampil
-    echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='tambah_produk.php';</script>";
+    echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='nutrisi.php';</script>";
   }
 } else {
   // jalankan query UPDATE berdasarkan ID yang produknya kita edit
@@ -79,7 +79,7 @@ if ($gambar_produk != "") {
   } else {
     //tampil alert dan akan redirect ke halaman index.php
     //silahkan ganti index.php sesuai halaman yang akan dituju
-    echo "<script>alert('Data berhasil diubah.');window.location='index.php';</script>";
+    echo "<script>alert('Updated successfully.');window.location='nutrisi.php';</script>";
   }
 }
 }
