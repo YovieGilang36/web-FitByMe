@@ -62,7 +62,7 @@ if ($gambar_produk != "") {
     }
   } else {
     //jika file ekstensi tidak jpg dan png maka alert ini yang tampil
-    echo "<script>alert('image only.');window.location='edit_resep.php';</script>";
+    echo "<script>alert('image only.');window.location='resep.php';</script>";
   }
 } else {
   // jalankan query UPDATE berdasarkan ID yang produknya kita edit
