@@ -195,7 +195,7 @@ if ($gambar_produk != "") {
                         <div class="card-header py-3">
                             <div class="row">
                                 <div class="col card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Nutrition Table</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Meals Table</h6>
                                 </div>
                                 
                                 <div class="col card-header text-right">
