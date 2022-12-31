@@ -52,11 +52,11 @@ if ($gambar_produk != "") {
     } else {
       //tampil alert dan akan redirect ke halaman index.php
       //silahkan ganti index.php sesuai halaman yang akan dituju
-      echo "<script>alert('Data berhasil ditambah.');window.location='index.php';</script>";
+      echo "<script>alert('Saved successfully.');window.location='resep.php';</script>";
     }
   } else {
     //jika file ekstensi tidak jpg dan png maka alert ini yang tampil
-    echo "<script>alert('image only.');window.location='tambah_produk.php';</script>";
+    echo "<script>alert('image only.');window.location='resep.php';</script>";
   }
 // } else {
 //   $query = "INSERT INTO artikel (gambar, judul, artikel) VALUES ('', null, '$nama_produk', '$deskripsi')";
