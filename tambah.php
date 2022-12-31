@@ -44,5 +44,5 @@
 //     //silahkan ganti index.php sesuai halaman yang akan dituju
 //     echo "<script>alert('Data berhasil ditambah.');window.location='index.php';</script>";
 //   }
-}
-}
+// }
+// }
